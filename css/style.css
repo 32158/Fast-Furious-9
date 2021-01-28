@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+    bordesr: solid white;
+}
+body{
+    background: #18191a;
+}
+header{
+    width: 100%;
+  
+    backgrsound: brown;
+}
+.header{
+    width: 70%;
+   
+    backsground: cadetblue;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+
+}
+.header h1{
+    font-size: 5vh;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    
+   
+    
+}
+.linea{
+    margin-top: 20px;
+    width: 100%;
+    height: 7vh;
+    background: rgba(0, 0, 0, 0.945);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.226);
+
+}
+.cuerpo{
+    widows: 100%;
+    
+    bacdkground: burlywood;
+    overflow: hidden;
+    
+
+}
+ .historia{
+    width: 100%;
+    
+    
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+   
+    
+}
+.trailer{
+    width: 80%;
+    height: 60vh;
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0) ;
+    overflow: hidden;
+}
+.trailer IFRAME{
+    width: 100%;
+    height: 100%;
+    
+    flex-wrap: wrap;
+    
+    
+}
+.poster{
+    width: 20vh;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0) ;
+    cursor: pointer;
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+    
+    
+}
+.descripcion{
+    margin: 0 auto ;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+}
+
+.link img{
+    border-radius: 10px;
+    width: 30vh;
+    margin-top: 30px;
+   
+    
+}
+.link2 img{
+    border-radius: 10px;
+    width: 40vh;
+    margin-top: 30px;
+    
+}
+.link2 :hover{
+    cursor: pointer;
+   opacity: 80%;
+}
+.link :hover{
+    cursor: pointer;
+   opacity: 80%;
+   
+}
+.pie{
+    height: 5vh;
+    width: 100%;
+}
