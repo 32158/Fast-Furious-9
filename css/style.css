@@ -129,6 +129,9 @@ header{
    
 }
 .pie{
-    height: 5vh;
-    width: 100%;
+    top: 25vh;
+    width: 25vh;
+    z-index: 3;
+    margin: 0 20px;
+    position: absolute;
 }
